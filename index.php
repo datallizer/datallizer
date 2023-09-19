@@ -64,13 +64,9 @@ require 'dbcon.php';
         </div>
       </div>
 
-<<<<<<< HEAD
       <div class="col-11 col-md-3 heroimg mgtop" data-aos="fade-down" data-aos-delay="300">
         <img src="images/developer.jpg" alt="">
       </div>
-=======
-      
->>>>>>> 85261fb07bfad84d8e7a5084ae91990dce312b65
 
       <div class="col-11 col-md-1 colcenter justify-content-center mgtop " data-aos="fade-left" data-aos-delay="300">
         <div class="herosocial">
@@ -196,17 +192,11 @@ require 'dbcon.php';
        </div>
     </div>
 
-<<<<<<< HEAD
-=======
-    
-
->>>>>>> 85261fb07bfad84d8e7a5084ae91990dce312b65
     <div class="row proyectos justify-content-center" id="proyectos">
 
       <div class="col-11 text-center">
         <h2>proyectos realizados</h2>
         <p>Una solucion para cada cliente</p>
-<<<<<<< HEAD
       </div>
 
       <div class="customer-logos">
@@ -269,107 +259,10 @@ require 'dbcon.php';
 
     
 
-=======
-        <br><br>
-      </div>
-      
-
-      <div class="customer-logos">
-
-        <table> <!-- Tabla de imagenes de proyectos realizados -->
-          <tr>
-            <td width="75px">
-            </td>
-            <td>
-              <img class="img_rect" src="images/laBoqueria.jpeg" alt="La Boqueria">
-            </td>
-            <td width="150px">
-            </td>  
-            <td>
-              <img class="img_rect" src="images/levana.jpeg" alt="Levana">
-            </td>
-            <td width="150px">
-            </td>
-            <td>
-              <img class="img_rect" src="images/logocepaplateral.png" alt="CEPAP">
-            </td>
-          </tr>
-          <tr height="75px">
-          </tr>
-          <tr>
-          <td width="75px">
-            </td>
-            <td>
-              <img class="img_cuad" src="images/agrydem.png" alt="Agrydem">
-            </td>
-            <td width="150px">
-            </td>  
-            <td>
-              <img class="img_rect" src="images/ucap.png" alt="UCAP">
-            </td>
-            <td width="150px">
-            </td>
-            <td>
-              <img class="img_rect" src="images/capullitos.png" alt="Capullitos">
-            </td>
-          </tr>
-          <tr height="75px">
-          </tr>
-          <tr>
-          <td width="75px">
-            </td>
-            <td>
-              <img class="img_rect" src="images/mgelectrica.png" alt="MG Electrica">
-            </td>
-            <td width="150px">
-            </td>  
-            <td>
-              <img class="img_rect" src="images/pypconstructora.png" alt="PyP COnstructora">
-            </td>
-            <td width="150px">
-            </td>
-            <td>
-              <img class="img_rect" src="images/taami.png">
-            </td>
-          </tr>
-          <tr height="75px">
-          </tr>
-          <tr>
-          <td width="50px">
-            </td>
-            <td>
-              <img class="img_cuad" src="images/agslocal.png" alt="AgsLocal">
-            </td>
-            <td width="100px">
-            </td>  
-            <td>
-              <img class="img_rect" src="images/aescena.png" alt="AEscena">
-            </td>
-            <td width="100px">
-            </td>
-            <td>
-              <img class="img_rect" src="images/elfrijolito.png" alt="El Frijolito">
-            </td>
-          </tr>
-          <tr height="75px">
-          </tr>
-          <tr>
-          <td width="50px">
-          </td>
-          <td colspan="50" align="center">
-              <img class="img_cuad" src="images/siraa.jpg">
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    
->>>>>>> 85261fb07bfad84d8e7a5084ae91990dce312b65
     <div id="contacto" class="row contacto justify-content-center align-content-center">
       <div  class="col-11 col-md-5 formacontacto text-center">
         <h2>¿En que podemos ayudarte?</h2>
 
-<<<<<<< HEAD
         <form action="cotizacion.php" method="post">
           <div class="row justify-content-center">
 
@@ -392,35 +285,6 @@ require 'dbcon.php';
 
           <div class="col-12">
             <textarea class="form-control" rows="3" placeholder="Detalles de tu proyecto" id="detalles" name="detalles" required autocomplete="off"></textarea pattern="[a-zA-Z\s]{1-500}">
-=======
-        <form class="form-floating" action="cotizacion.php" method="post">
-          <div class="row justify-content-center">
-
-            <div class="mb-3 form-floating">
-              <input class="form-control" type="text" placeholder="Nombre" id="floatingnombre" name="nombre" required autocomplete="off" pattern="[a-zA-Z\s]{1-50}">
-              <label for="floatingnombre"> Nombre </label>
-            </div>
-
-            <div class="mb-3 form-floating">
-              <input class="form-control" type="text" placeholder="Apellido" id="apellido" name="apellido" required autocomplete="off" pattern="[a-zA-Z\s]{1-50}">
-              <label for="apellido"> Apellido </label>
-            </div>
-
-          
-            <div class="mb-3 form-floating">
-            <input class="form-control" type="text" placeholder="Teléfono" id="telefono" name="telefono" required autocomplete="off">
-            <label for="telefono"> Telefono </label>
-          </div>
-          
-          <div class="form-floating mb-3 ">
-            <input class="form-control" type="email" id="email" name="email" required autocomplete="off">
-            <label for="email"> Email </label>
-          </div>
-
-          <div class="mb-3 form-floating">
-            <textarea class="form-control" rows="3" placeholder="Detalles de tu proyecto" id="detalles" name="detalles" required autocomplete="off"></textarea pattern="[a-zA-Z\s]{1-500}">
-            <label for="detalles"> Detalles del Proyecto </label>
->>>>>>> 85261fb07bfad84d8e7a5084ae91990dce312b65
           </div>
 
           <div class="form-check lefta col-12">
