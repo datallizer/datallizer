@@ -26,7 +26,7 @@
         <!-- Action -->
         <div class="d-flex align-items-lg-center mt-3 mt-lg-0 loginbtn btnoffc">
           <!-- Button trigger modal -->
-          <a href="login.php" class="btnoffc btn btn-sm btn-outline-light">
+          <a href="login.php" class="btnoffc btn btn-outline-light">
             Iniciar sesión
           </a>
         </div>

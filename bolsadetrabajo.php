@@ -47,6 +47,7 @@
 </script>
 
   <?php include 'menu.php'; ?>
+  <?php include 'whatsapp.php'; ?>
 
   <div class="container-fluid">
     <div class="row justify-content-center align-items-center reclutamientopage">

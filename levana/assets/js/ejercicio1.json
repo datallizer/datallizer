@@ -1,0 +1,138 @@
+[{
+  "version": "1.0",
+  "image": {
+    "name": "/home/videosdownloader/public_html/image/public/uploadt/ej01.svg",
+    "baseName": "ej01.svg",
+    "format": "SVG",
+    "formatDescription": "SVG",
+    "mimeType": "image/svg+xml",
+    "class": "DirectClass",
+    "geometry": {
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0
+    },
+    "units": "Undefined",
+    "type": "TrueColorAlpha",
+    "baseType": "Undefined",
+    "endianness": "Undefined",
+    "colorspace": "sRGB",
+    "depth": 16,
+    "baseDepth": 16,
+    "channelDepth": {
+      "alpha": 1,
+      "red": 16,
+      "green": 16,
+      "blue": 1
+    },
+    "pixels": 8294400,
+    "imageStatistics": {
+      "Overall": {
+        "min": 0,
+        "max": 65535,
+        "mean": 56982.9,
+        "median": 65535,
+        "standardDeviation": 12708.1,
+        "kurtosis": 2.2828,
+        "skewness": -1.86384,
+        "entropy": 0.098165
+      }
+    },
+    "channelStatistics": {
+      "alpha": {
+        "min": 65535,
+        "max": 65535,
+        "mean": 65535,
+        "median": 65535,
+        "standardDeviation": 0,
+        "kurtosis": 8.192e+51,
+        "skewness": 1e+36,
+        "entropy": 0
+      },
+      "red": {
+        "min": 0,
+        "max": 65535,
+        "mean": 49780.2,
+        "median": 65535,
+        "standardDeviation": 24702,
+        "kurtosis": -0.905372,
+        "skewness": -1.01364,
+        "entropy": 0.126735
+      },
+      "green": {
+        "min": 0,
+        "max": 65535,
+        "mean": 58267.5,
+        "median": 65535,
+        "standardDeviation": 10330.6,
+        "kurtosis": -0.347518,
+        "skewness": -0.960329,
+        "entropy": 0.131168
+      },
+      "blue": {
+        "min": 0,
+        "max": 65535,
+        "mean": 54348.7,
+        "median": 65535,
+        "standardDeviation": 15799.7,
+        "kurtosis": -1.22065,
+        "skewness": -0.800727,
+        "entropy": 0.134757
+      }
+    },
+    "renderingIntent": "Perceptual",
+    "gamma": 0.454545,
+    "chromaticity": {
+      "redPrimary": {
+        "x": 0.64,
+        "y": 0.33
+      },
+      "greenPrimary": {
+        "x": 0.3,
+        "y": 0.6
+      },
+      "bluePrimary": {
+        "x": 0.15,
+        "y": 0.06
+      },
+      "whitePrimary": {
+        "x": 0.3127,
+        "y": 0.329
+      }
+    },
+    "matteColor": "#BDBDBD",
+    "backgroundColor": "#FFFFFF",
+    "borderColor": "#DFDFDF",
+    "transparentColor": "#00000000",
+    "interlace": "None",
+    "intensity": "Undefined",
+    "compose": "Over",
+    "pageGeometry": {
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0
+    },
+    "dispose": "Undefined",
+    "iterations": 0,
+    "compression": "Undefined",
+    "orientation": "Undefined",
+    "properties": {
+      "date:create": "2023-01-09T18:05:24+00:00",
+      "date:modify": "2023-01-09T18:05:24+00:00",
+      "signature": "5a98068ee39ec7de41744edd9e7a89259b1b95652b7e4c36846a3bc89105662d",
+      "svg:comment": " Generator: Adobe Illustrator 26.5.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  "
+    },
+    "artifacts": {
+      "mvg:vector-graphics": "push graphic-context\ncompliance \"SVG\"\nfill \"black\"\nfill-opacity 1\nstroke \"none\"\nstroke-width 1\nstroke-opacity 1\nfill-rule nonzero\nencoding \"utf-8\"\nviewbox 0 0 1920 1080\naffine 1 0 0 1 0 0\npush class \"st0\"\nfill \"#B3B3B3\"\npop class\npush class \"st1\"\nfill \"#FF7BAC\"\npop class\npush class \"st2\"\nfill \"#22B573\"\npop class\npush class \"st3\"\nfill \"#FE7BAB\"\npop class\npush class \"st4\"\nfont-family \"MyriadPro-Regular\"\npop class\npush class \"st5\"\nfont-size 45.0456\nfont-size 45.0456\npop class\npush class \"st6\"\nfont-size 134.923\nfont-size 134.923\npop class\npush graphic-context \"Capa_1\"\npush graphic-context\nclass \"st0\"\npath \"M1776.4,293H133.6c-15.8,0-28.6-12.8-28.6-28.6V129.6c0-15.8,12.8-28.6,28.6-28.6h1642.9   c15.8,0,28.6,12.8,28.6,28.6v134.9C1805,280.2,1792.2,293,1776.4,293z\"\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st1\"\nrectangle 124,115 200,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 203,115 279,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 282,115 358,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 361,115 437,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 440,115 516,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 519,115 595,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 598,115 674,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 677,115 753,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 756,115 832,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 835,115 911,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 914,115 990,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 993,115 1069,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1072,115 1148,277\npop graphic-context\npop graphic-context\npush graphic-context\nclass \"st0\"\npath \"M1732,1040h-289V334h251.8c20.6,0,37.2,16.7,37.2,37.2V1040z\"\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1151,115 1227,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1230,115 1306,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1309,115 1385,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1388,115 1464,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1467,115 1543,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1546,115 1622,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1625,115 1701,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st1\"\nrectangle 1704,115 1780,277\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M1459,384.6V344h226.5c15.2,0,27.5,12.3,27.5,27.5v13.1H1459z\"\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,386.2 1713,426.8\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,428.5 1713,469.1\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,470.7 1713,511.3\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,512.9 1713,553.5\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,555.1 1713,595.7\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,597.4 1713,638\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,639.6 1713,680.2\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,681.8 1713,722.4\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,724 1713,764.6\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,766.3 1713,806.9\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,808.5 1713,849.1\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,850.7 1713,891.3\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,892.9 1713,933.5\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\nrectangle 1459,935.2 1713,975.8\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st1\"\nrectangle 1459,977.4 1713,1018\npop graphic-context\npop graphic-context\npush graphic-context\nclass \"st3\"\npath \"M123.9,404.9c0.2-0.5,0.2-1,0.2-1.5c0-11.5,0-23,0-34.6c0-2.2,0.2-4.5,0.5-6.7c2.9-18.7,19.7-33.1,38.7-33.1   c40.4,0,80.8,0,121.2,0c1.7,0,1.7,0,1.7,1.7c0,24.4,0,48.9,0,73.3c0,0.4,0,0.7,0,1.1c-0.5,0-1-0.1-1.4-0.1c-53,0-106,0-159.1,0   c-1.2,0-1.5,0.3-1.5,1.5\"\npop graphic-context\npush graphic-context\nclass \"st3\"\npath \"M449,366.3c0,2.1,0,4.2,0,6.2c-0.2,0.1-0.2,0.3-0.2,0.5c-0.2,4.3-0.3,8.7-0.5,13c-0.2,6.3-0.5,12.7-0.8,19   c-0.4,0-0.8,0-1.2,0c-52.7,0-105.4,0-158.1,0c-0.4,0-0.8,0-1.2,0c0-0.4-0.1-0.9-0.1-1.3c0-24.4,0-48.8,0-73.2   c0-1.7-0.2-1.5,1.6-1.5c40.3,0,80.5-0.2,120.8,0.1c16.9,0.1,28.9,8.4,36.2,23.5C447.7,356.9,448.5,361.6,449,366.3z\"\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M286,481c0,0.3,0.1,0.6,0.1,1c0,24.8,0,49.5,0,74.3c0,0.3,0,0.6,0,0.8c-0.3,0-0.6,0-0.8,0    c-53.3,0-106.6,0-159.9,0c-0.4,0-0.8,0.1-1.2,0.1c0-0.5-0.1-1-0.1-1.4c0-24.5,0-48.9,0-73.4c0-0.5,0.1-1,0.1-1.4    c0.4,0,0.8,0.1,1.2,0.1C178.8,481,232.4,481,286,481z\"\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M286,633c0,0.3,0,0.6,0,1c0,24.7,0,49.3,0,74c0,0.4,0,0.7-0.1,1.1c-53.6,0-107.1,0-160.7,0    c-0.4,0-0.8,0.1-1.2,0.1c0-0.5-0.1-1-0.1-1.4c0-24.4,0-48.9,0-73.3c0-0.5,0.1-1,0.1-1.4c0.6,0.3,1.2,0.1,1.8,0.1    c52.8,0,105.6,0,158.5,0C284.9,633,285.4,633,286,633z\"\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M124.1,709c0.4,0,0.8-0.1,1.2-0.1c53.6,0,107.1,0,160.7,0c0,0.4,0,0.7,0,1.1c0,24.6,0,49.3,0,73.9    c0,0.4,0,0.7-0.1,1.1c-1,0-1.9,0-2.9,0c-52.4,0-104.8,0-157.2,0c-0.6,0-1.2,0-1.8,0c0,0-0.1-0.1-0.1-0.1c0-0.5,0.1-1,0.1-1.4    c0-24.3,0-48.6,0-72.9C124,710.1,124.1,709.6,124.1,709z\"\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M286,481c-53.6,0-107.1,0-160.7,0c-0.4,0-0.8-0.1-1.2-0.1c0-0.4,0-0.8,0-1.2c0-24.4,0-48.8,0-73.2    c0-1.2,0.3-1.5,1.5-1.5c53,0,106,0,159.1,0c0.5,0,1,0,1.4,0.1c0,3.8,0,7.6,0,11.4c0,21,0,42,0,63.1C286,480,286,480.5,286,481z\"\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M286,633c-0.6,0-1.1,0-1.7,0c-52.8,0-105.6,0-158.5,0c-0.6,0-1.2,0.1-1.8-0.1c0-0.3,0-0.6,0-1    c0-24.6,0-49.2,0-73.8c0-0.3,0-0.6,0-1c0.4,0,0.8-0.1,1.2-0.1c53.3,0,106.6,0,159.9,0c0.3,0,0.6,0,0.8,0c0,0.3,0,0.6,0,1    c0,24.7,0,49.4,0,74C286,632.3,286,632.6,286,633z\"\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M287.1,481c0-0.4-0.1-0.7-0.1-1.1c0-24.6,0-49.2,0-73.8c0-0.4,0-0.7,0.1-1.1c0.4,0,0.8,0,1.2,0    c52.7,0,105.4,0,158.1,0c0.4,0,0.8,0,1.2,0c-0.2,5-0.3,10-0.5,15c-0.4,10.9-0.8,21.9-1.2,32.8c-0.3,9.1-0.7,18.1-1,27.2    c0,0.4-0.1,0.7-0.1,1.1C392.1,481,339.6,481,287.1,481z\"\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M124.1,785c0.6,0,1.2,0,1.8,0c52.4,0,104.8,0,157.2,0c1,0,1.9,0,2.9,0c0,0.4,0.1,0.7,0.1,1.1    c0,24.6,0,49.2,0,73.8c0,0.4,0,0.7-0.1,1.1c-0.4,0-0.7,0-1.1,0c-53.2,0-106.4,0-159.5,0c-0.4,0-0.9,0-1.3,0c0-0.4-0.1-0.9-0.1-1.3    c0-24.4,0-48.9,0-73.3C124,785.9,124.1,785.5,124.1,785z\"\npop graphic-context\npop graphic-context\npush graphic-context\nclass \"st3\"\npath \"M124.1,861c0.4,0,0.9,0,1.3,0c53.2,0,106.4,0,159.5,0c0.4,0,0.7,0,1.1,0c0,0.4,0.1,0.9,0.1,1.3   c0,24.4,0,48.8,0,73.2c0,1.2-0.2,1.5-1.5,1.5c-40.5,0-81,0-121.5,0c-18.2,0-34.7-13.6-38.2-31.5c-0.4-2.3-0.7-4.6-0.8-6.9   c0-12.5,0-25,0-37.4C124,861.1,124,861,124.1,861z\"\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M287.1,481c52.5,0,105.1,0,157.6,0c-0.1,3.8-0.2,7.7-0.4,11.5c-0.2,5.5-0.4,11.1-0.6,16.6    c-0.4,10-0.8,19.9-1.1,29.9c-0.2,5.6-0.4,11.2-0.6,16.9c0,0.4-0.1,0.8-0.1,1.2c-51.6,0-103.2,0-154.7,0c0-0.4-0.1-0.7-0.1-1.1    c0-24.6,0-49.3,0-73.9C287,481.7,287,481.3,287.1,481z\"\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M287.1,557c51.6,0,103.2,0,154.7,0c-0.1,3.9-0.2,7.8-0.4,11.7c-0.3,7.8-0.6,15.6-0.9,23.3    c-0.4,11.5-0.9,22.9-1.3,34.4c-0.1,2.2,0,4.4-0.3,6.6c-50.6,0-101.3,0-151.9,0c0-0.4,0-0.7,0-1.1c0-24.6,0-49.2,0-73.7    C287,557.8,287,557.4,287.1,557z\"\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M287,633c50.6,0,101.3,0,151.9,0c-0.1,3.9-0.2,7.8-0.4,11.7c-0.2,6.2-0.5,12.4-0.7,18.5    c-0.5,13.6-1,27.1-1.5,40.7c-0.1,1.7,0,3.3-0.3,5c-49.7,0-99.3,0-149,0c0-0.3-0.1-0.6-0.1-1c0-24.7,0-49.3,0-74    C287,633.7,287,633.3,287,633z\"\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M287.1,709c49.7,0,99.3,0,149,0c0.1,4-0.2,8.1-0.4,12.1c-0.3,7.7-0.6,15.5-0.9,23.2    c-0.4,11.5-0.9,22.9-1.3,34.4c-0.1,2.1,0,4.2-0.3,6.3c-48.7,0-97.4,0-146.1,0c0-0.4,0-0.7,0-1.1c0-24.6,0-49.3,0-73.9    C287,709.7,287,709.3,287.1,709z\"\npop graphic-context\npop graphic-context\npush graphic-context\npush graphic-context\nclass \"st2\"\npath \"M287.1,785c48.7,0,97.4,0,146.1,0c0.1,4.1-0.2,8.1-0.4,12.2c-0.2,5.6-0.4,11.2-0.6,16.8    c-0.4,11.5-0.9,23.1-1.4,34.6c-0.2,4.1-0.3,8.3-0.5,12.4c-47.3,0-94.6,0-141.8,0c-0.5,0-1,0-1.4,0c0-0.4,0-0.7,0-1.1    c0-24.6,0-49.2,0-73.8C287,785.7,287,785.4,287.1,785z\"\npop graphic-context\npop graphic-context\npush graphic-context\nclass \"st3\"\npath \"M287,860.9c0.5,0,1,0,1.4,0c47.3,0,94.6,0,141.8,0c-0.2,6.8-0.5,13.7-0.7,20.5c-0.2,6.4-0.3,12.8-0.8,19.2   c-0.6,9.1-4.2,17-10.4,23.7c-6.9,7.5-15.6,11.6-25.7,12.6c-1,0.1-1.9,0.1-2.9,0.1c-33.7,0-67.4,0-101.1,0c-1.7,0-1.7,0-1.7-1.6   c0-24.5,0-49,0-73.5C287,861.5,287,861.2,287,860.9z\"\npop graphic-context\npush graphic-context\naffine 1 0 0 1 313.92 458.136\nclass \"st4 st5\"\ntext 0,0 \"text 1\"\npop graphic-context\npush graphic-context\naffine 1 0 0 1 313.92 533.536\nclass \"st4 st5\"\ntext 0,0 \"text 2\"\npop graphic-context\npush graphic-context\naffine 1 0 0 1 313.92 608.936\nclass \"st4 st5\"\ntext 0,0 \"text 3\"\npop graphic-context\npush graphic-context\naffine 1 0 0 1 313.92 684.336\nclass \"st4 st5\"\ntext 0,0 \"text 4\"\npop graphic-context\npush graphic-context\naffine 1 0 0 1 313.92 759.736\nclass \"st4 st5\"\ntext 0,0 \"text 5\"\npop graphic-context\npush graphic-context\naffine 1 0 0 1 313.92 835.136\nclass \"st4 st5\"\ntext 0,0 \"text 6\"\npop graphic-context\npush graphic-context\naffine 1 0 0 1 848.198 813.363\ntext 0,0 \" \t\"\npush graphic-context\nclass \"st4 st6\"\ntext 0,0 \"Simple \"\npop graphic-context\npush graphic-context\nclass \"st4 st6\"\ntext -43.4,161.9 \"text here\"\npop graphic-context\npop graphic-context\npop graphic-context\npush graphic-context \"Capa_2\"\npop graphic-context\npop graphic-context\n"
+    },
+    "tainted": false,
+    "filesize": "12079B",
+    "numberPixels": "2073600",
+    "pixelsPerSecond": "3.94206MB",
+    "userTime": "0.580u",
+    "elapsedTime": "0:01.526",
+    "version": "ImageMagick 7.0.10-58 Q16 x86_64 2021-01-14 https://imagemagick.org"
+  }
+}]

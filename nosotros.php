@@ -50,11 +50,12 @@
 </script>
 
   <?php include 'menu.php'; ?>
+  <?php include 'whatsapp.php'; ?>
 
  <div class="container-fluid">
   <div class="row justify-content-center nosotrosr">
     <div class="col-12 text-center hnosotros shadow">Sobre <b>nosotros</b></div>
-    <div class="col-11 col-md-6 hacemos">
+    <div class="col-10 col-md-6 hacemos">
       <br>
       <h3>¿Quiénes somos?</h3>
       <p>Somos una pequeña empresa de desarrollo de software, y por esta característica,
@@ -63,16 +64,16 @@
       Creemos que cada empresa tiene sus propios desafíos y oportunidades, por eso nos especializamos
        en el desarrollo de software a medida, lo que significa que trabajamos estrechamente con nuestros
         clientes para crear soluciones específicas para sus necesidades únicas. </p>
-        <h3>¿Para quienes trabajamos?</h3>
+        <h3 class="mt-5">¿Para quienes trabajamos?</h3>
         <ul>
           <p>•Pequeñas y medianas empresas</p>
           <p>•Emprendedores</p>
         </ul>
-        <h3>Nuestro objetivo es: </h3>
+        <h3 class="mt-5">Nuestro objetivo es: </h3>
         <p>Ayudar a nuestros clientes a <b>alcanzar sus objetivos organizacionales</b> mediante la 
           <b>creación de soluciones de software efectivas</b>. Nos aseguramos de que nuestros productos
            sean fáciles de usar, altamente eficientes y, lo más importante,<b> generen resultados medibles</b>.</p>
-        <h3>Nuestra Misión:</h3>
+        <h3 class="mt-5">Nuestra Misión:</h3>
         <p>Transformar las organizaciones a través de <b>soluciones tecnológicas innovadoras</b> y de <b>alta calidad</b>
            que impulsen la <b>eficiencia y la productividad</b> de nuestros clientes.</p>
            <br>

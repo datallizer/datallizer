@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Sarabun', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li,p,a {
+    font-weight: 200;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+label {
+    margin-left: 21px !important;
+    padding-left: 0px !important;
+}
+.pre-content{
+    max-height: calc(5 * 1.2em); 
+    overflow: hidden; 
+    margin: 0; 
+    padding: 0; 
+    white-space: pre-wrap;
+}
+pre{
+    white-space: pre-wrap;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.hero {
+    background-image: url('../images/hero.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 78px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.hero p {
+    background-color: #2f43a6;
+    color: #fff;
+    border-radius: 0px 0px 15px 15px;
+    padding-bottom: 3px;
+    width: 32%;
+    margin-left: 297px;
+    margin-top: -5px;
+}
+
+.aliados {
+    padding: 70px 0px;
+}
+
+.aliados p {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.nosotros {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    background-color: #222d3a;
+}
+
+.nosotros img {
+    border-bottom: 5px solid #3751d1;
+}
+
+.nosotros img:hover {
+    border-bottom: 5px solid #baa76e;
+    transition: all 0.2s ease;
+}
+
+.nosotros h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.nosotros p {
+    margin-bottom: 55px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.cardus {
+    background-color: #dddddd;
+    padding: 0px !important;
+}
+
+.txtus {
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+.txtus p {
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+
+.txtus p,
+.txtus a {
+    font-size: 13px;
+}
+
+.contacto {
+    padding: 180px 0px 80px 0px;
+    background-color: #e6e6e6;
+}
+
+.legales {
+    padding: 70px 0px;
+}
+
+.legales img {
+    border-right: 5px solid #3751d1;
+}
+
+.legalescard {
+    background-color: #e7e7e7;
+    padding-left: 0px !important;
+    border-radius: 10px;
+}
+
+.seguroscard {
+    background-color: #e7e7e7;
+    padding-left: 0px !important;
+    border-radius: 10px;
+}
+.legalescard img{
+    border-radius: 10px 0px 0px 10px;
+}
+.seguroscard img{
+    border-radius: 0px 10px 10px 0px;
+}
+.seguros img {
+    border-left: 5px solid #3751d1;
+}
+.seguros{
+    padding-bottom: 80px;
+}
+.contacto h2 {
+    font-size: 60px;
+}
+
+.contacto span {
+    color: #3751d1;
+    font-weight: 600;
+}
+
+.footer {
+    padding: 70px 0px;
+    border-top: 1px solid #e8e8e8;
+    background-color: #f1f1f1;
+}
+
+.footer a {
+    color: #000000;
+}
+.sociali{
+    margin-right: 11px;
+}
+.derechos {
+    background-color: #d8d8d8;
+    color: #000000;
+    font-size: 12px;
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+
+.seguroshero {
+    margin-top: 84px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.segurosherocol1 {
+    padding: 0px 55px;
+}
+
+.segurosherocol2 {
+    padding: 0px !important;
+}
+
+.segurosherocol2 img {
+    border-left: 5px solid #3751d1;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.segurosseleccion {
+    padding: 80px 0px;
+    background-color: #ffffff;
+}
+
+.seguroitem {
+    border: 1px solid #878787;
+    border-radius: 8px;
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.image-container p {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 3px #000000;
+    font-weight: 700;
+    background-color: #0000008e;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.segurosasesoria {
+    background-color: #3751d1;
+    padding: 80px 0px;
+    color: #ffffff;
+}
+
+.segurosasesoria label {
+    color: #000000;
+}
+
+.seguroslast {
+    padding: 80px 0px;
+}
+
+.seguroscardlast {
+    background-color: #e7e7e7e7;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 5px;
+}
+
+.seguroscardlast h3,
+.seguroscardlast p,
+.seguroscardlast a {
+    padding: 0px 25px;
+}
+
+.seguroscardlast img {
+    border-bottom: 5px solid #3751d1;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.litigiohero {
+    margin-top: 84px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.litigioherocol1 {
+    padding: 0px 55px;
+}
+
+.litigioherocol2 {
+    padding: 0px !important;
+}
+
+.litigioherocol2 img {
+    border-right: 5px solid #3751d1;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.carddashboard {
+    border: 1px solid #989898;
+    border-radius: 10px;
+    padding: 15px 0px;
+}
+
+.carddashboard a {
+    text-decoration: none;
+}
+
+.carddashboard img {
+    width: 55%;
+}
+
+.loginform{
+    min-height: 100vh;
+    background-image: url('../images/login.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.serviciocol,
+  .detallescol {
+    display: none;
+  }
+.filecard{
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1000px) {
+    .cardus {
+        margin-bottom: 35px;
+    }
+
+    .hero h1 {
+        font-size: 80px;
+    }
+    
+    .hero p {
+        background-color: #2f43a6;
+        color: #fff;
+        border-radius: 0px 0px 15px 15px;
+        padding-bottom: 3px;
+        width: 70%;
+        margin-left: 60px;
+        margin-top: -5px;
+    }
+    .legalescard img{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .seguroscard img{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .seguros img {
+        border-left: 0px solid #3751d1;
+        border-bottom: 5px solid #3751d1;
+        margin-bottom: 25px;
+    }
+    .legales img {
+        border-right: 0px solid #3751d1;
+        border-bottom: 5px solid #3751d1;
+        margin-bottom: 25px;
+    }
+    .segurosherocol1{
+        padding: 40px 20px;
+    }
+    .segurosherocol2 img {
+        border-left: 0px solid #3751d1;
+        border-bottom: 5px solid #3751d1;
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        display: block;
+    }
+
+    .seguroscardlast{
+        margin-bottom: 25px;
+    }
+
+    .litigioherocol1{
+        padding: 40px 20px;
+    }
+    .litigioherocol2 img {
+        border-right: 0px solid #3751d1;
+        border-bottom: 5px solid #3751d1;
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        display: block;
+    }
+
+    .contacto {
+        padding: 140px 0px 80px 0px;
+    }
+
+    .contacto h2{
+        font-size: 40px;
+        margin-bottom: 55px;
+    }
+
+    .social,.acceso{
+        margin-bottom: 40px;
+    }
+    
+}

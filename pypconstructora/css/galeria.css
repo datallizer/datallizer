@@ -1,0 +1,24 @@
+.bannergaleria{
+    background-image: url('../images/piedra.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.galeria img{
+    width: 100%;
+}
+
+.galerimg{
+    padding: 7px;
+}
+
+.galeria{
+    margin-top: 20px;
+}
+
+.galeriah2 h2{
+    margin-top: 90px;
+    margin-bottom: 100px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #575757;
+}

@@ -28,6 +28,7 @@ require 'dbcon.php';
 <div id="fb-customer-chat" class="fb-customerchat">
 </div>
 
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0" nonce="qltXOFJo"></script>
 <script>
   var chatbox = document.getElementById('fb-customer-chat');
   chatbox.setAttribute("page_id", "108217338784784");
@@ -53,43 +54,43 @@ require 'dbcon.php';
 </script>
 
   <?php include 'menu.php'; ?>
+  <?php include 'whatsapp.php'; ?>
   
   <div class="container-fluid">
-    <div class="row hero justify-content-around align-items-center glass overx">
-      <div class="col-11 col-md-5 colcenter">
-        <div class="herotxt" data-aos="fade-right" data-aos-delay="300">
-          <h1>INNOVACIÓN <span class="blue">DIGITAL <i class="bi bi-code-slash"></i></span></h1>
-          <p>Simplifica y automatiza tu empresa otorgando así mayor eficiencia, operatividad y más agilidad.</p>
-          <?php include 'message.php'; ?>
-        </div>
-      </div>
+  <div class="hero-container">
+  <video class="hero-video" autoplay loop muted>
+    <source src="images/herovd.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de videos.
+  </video>
 
-      <div class="col-11 col-md-3 heroimg mgtop" data-aos="fade-down" data-aos-delay="300">
-        <img src="images/developer.jpg" alt="">
-      </div>
-
-      <div class="col-11 col-md-1 colcenter justify-content-center mgtop " data-aos="fade-left" data-aos-delay="300">
-        <div class="herosocial">
-          <a href="https://facebook.com/datallizer" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
-
-          <a href="https://wa.me/14088277605" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
-
-          <a href="https://instagram.com/datallizer" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
-
-          <a href="https://m.me/datallizer" target="_blank" rel="noopener noreferrer"><i class="bi bi-messenger"></i></a>
-        </div>
+  <div class="row hero justify-content-around align-items-center glass overx">
+    <div class="col-10 col-md-5 colcenter">
+      <div class="herotxt" data-aos="fade-right" data-aos-delay="300">
+        <h1>INNOVACIÓN <span class="blue">DIGITAL <i class="bi bi-code-slash"></i></span></h1>
+        <p>Simplifica y automatiza tu empresa otorgando así mayor eficiencia, operatividad y más agilidad.</p>
+        <?php include 'message.php'; ?>
       </div>
     </div>
 
+    <div class="col-11 col-md-1 colcenter justify-content-center mgtop " data-aos="fade-left" data-aos-delay="300">
+      <div class="herosocial">
+        <a href="https://facebook.com/datallizer" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+        <a href="https://wa.me/524496374915" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://instagram.com/datallizer" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+        <a href="https://m.me/datallizer" target="_blank" rel="noopener noreferrer"><i class="bi bi-messenger"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
     <div id="nosotros" class="row justify-content-center align-content-center nosotros">
 
-      <div class="col-12 colnomp"><img src="images/webs.png" alt=""></div>
-
-      <div class="col-11 col-md-3 colcenter nosotrosh2" data-aos="fade-right">
+      <div class="col-10 col-md-10 text-center mb-4" data-aos="fade-right">
         <h2>Sobre nosotros</h2>
       </div>
 
-      <div class="col-11 col-md-7" data-aos="fade-right" data-aos-delay="300">
+      <div class="col-10 col-md-10" data-aos="fade-right" data-aos-delay="300">
         <p>Somos una pequeña empresa de desarrollo de software, y por esta característica, entendemos muy bien las necesidades que tienen los emprendedores, así como los medianos y pequeños empresarios.
           <br><br>
           Creemos que cada empresa tiene sus propios desafíos y oportunidades, por eso nos especializamos en el desarrollo de software a medida, lo que significa que trabajamos estrechamente con nuestros clientes para crear soluciones específicas para sus necesidades únicas. 
@@ -97,7 +98,7 @@ require 'dbcon.php';
         <a class="btn btn-dark btn-sm" href="nosotros.php">Ver más...</a>
       </div>
 
-      <div class="col-12 col-md-11 carrusel">
+      <div class="col-11 col-md-10 carrusel">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -133,7 +134,7 @@ require 'dbcon.php';
       <div class="col-11 text-center servicesh2">
         <h2>Nuestros servicios</h2>
       </div>
-      <div class="col-11 col-md-3 servicecard colcenter">
+      <div class="col-10 col-md-3 servicecard colcenter">
         <div>
           <a class="colcenter" style="text-decoration: none;color:#ffffff;" href="#contacto">
             Estoy interesado en sus servicios
@@ -143,7 +144,7 @@ require 'dbcon.php';
         </div>
       </div>
 
-      <div class="col-11 col-md-3 servicecard">
+      <div class="col-10 col-md-3 servicecard">
         <div class="row justify-content-evenly align-content-center colcenter">
           <div class="col">
             <h3>Sitios Web</h3>
@@ -153,17 +154,17 @@ require 'dbcon.php';
         <p>Estáticos / Dinámicos </p>
       </div>
 
-      <div class="col-11 col-md-3 servicecard">
+      <div class="col-10 col-md-3 servicecard">
         <div class="row justify-content-evenly align-content-center colcenter">
           <div class="col">
-            <h3>Sistemas de ERP y CMR</h3>
+            <h3>Sistemas de ERP y CRM</h3>
           </div>
           <div class="col-2"><i class="bi bi-braces"></i></div>
         </div>
         <p>Para la gestión de la empresa y de los clientes.</p>
       </div>
 
-      <div class="col-11 col-md-3 servicecard">
+      <div class="col-10 col-md-3 servicecard">
         <div class="row justify-content-evenly align-content-center colcenter">
           <div class="col">
             <h3>Aplicaciones Móviles</h3>
@@ -172,7 +173,7 @@ require 'dbcon.php';
         </div>
       </div>
 
-      <div class="col-11 col-md-3 servicecard">
+      <div class="col-10 col-md-3 servicecard">
         <div class="row justify-content-evenly align-content-center colcenter">
           <div class="col">
             <h3>Creación de Chat Box</h3>
@@ -182,7 +183,7 @@ require 'dbcon.php';
         <p>Para el servicio al cliente</p>
       </div>
 
-      <div class="col-11 col-md-3 servicecard">
+      <div class="col-10 col-md-3 servicecard">
         <div class="row justify-content-evenly align-content-center colcenter">
           <div class="col">
             <h3>Comunicación y Mercadotecnia Digital</h3>
@@ -194,8 +195,8 @@ require 'dbcon.php';
 
     <div class="row proyectos justify-content-center" id="proyectos">
 
-      <div class="col-11 text-center">
-        <h2>proyectos realizados</h2>
+      <div class="col-10 text-center mb-5">
+        <h2>Proyectos realizados</h2>
         <p>Una solucion para cada cliente</p>
       </div>
 
@@ -214,7 +215,7 @@ require 'dbcon.php';
         </div>
 
         <div class="slide-in-right slide slmargin">
-          <img src="images/agrydem.png" alt="Agrydem">
+          <img src="images/capullitos.png" alt="Capullitos">
         </div>
 
         <div class="slide-in-right slide slmargin">
@@ -222,7 +223,7 @@ require 'dbcon.php';
         </div>
 
         <div class="slide-in-right slide slmargin">
-          <img src="images/capullitos.png" alt="Capullitos">
+          <img src="images/agrydem.png" alt="Agrydem">
         </div>
 
         <div class="slide-in-right slide slmargin">
@@ -238,11 +239,11 @@ require 'dbcon.php';
         </div>
 
         <div class="slide-in-right slide agslocal slmargin">
-          <img src="images/agslocal.png" alt="AgsLocal">
+          <img src="images/aescena.png" alt="AgsLocal">
         </div>
 
         <div class="slide-in-right slide slmargin">
-          <img src="images/aescena.png" alt="AEscena">
+          <img src="images/agslocal.png" alt="AEscena">
         </div>
 
         <div class="slide-in-right slide agslocal slmargin">
@@ -255,47 +256,42 @@ require 'dbcon.php';
 
       </div>
     </div>
-
-
     
-
     <div id="contacto" class="row contacto justify-content-center align-content-center">
       <div  class="col-11 col-md-5 formacontacto text-center">
-        <h2>¿En que podemos ayudarte?</h2>
+        <h2 class="mb-4">¿En que podemos ayudarte?</h2>
 
         <form action="cotizacion.php" method="post">
           <div class="row justify-content-center">
 
-            <div class="col-6">
-              <input class="form-control" type="text" placeholder="Nombre" id="nombre" name="nombre" required autocomplete="off" pattern="[a-zA-Z\s]{1-50}">
+            <div class="form-floating mb-3 col-6">
+              <input class="form-control" type="text" placeholder="Nombre" id="floatingInput" name="nombre" required autocomplete="off" pattern="[a-zA-Z\s]{1-50}">
+              <label for="floatingInput">Nombre</label>
             </div>
 
-            <div class="col-6">
-              <input class="form-control" type="text" placeholder="Apellido" id="apellido" name="apellido" required autocomplete="off" pattern="[a-zA-Z\s]{1-50}">
+            <div class="form-floating mb-3 col-6">
+              <input class="form-control" type="text" placeholder="Apellido" id="floatingInput" name="apellido" required autocomplete="off" pattern="[a-zA-Z\s]{1-50}">
+              <label for="floatingInput">Apellido</label>
             </div>
 
           
-          <div class="col-12">
-            <input class="form-control" type="text" placeholder="Teléfono" id="telefono" name="telefono" required autocomplete="off">
+          <div class="form-floating mb-3 col-4">
+            <input class="form-control" type="text" placeholder="Teléfono" id="floatingInput" name="telefono" required autocomplete="off">
+            <label for="floatingInput">Teléfono</label>
           </div>
           
-          <div class="col-12">
-            <input class="form-control" type="email" placeholder="Email" id="email" name="email" required autocomplete="off">
+          <div class="form-floating mb-3 col-8">
+            <input class="form-control" type="email" placeholder="Email" id="floatingInput" name="email" required autocomplete="off">
+            <label for="floatingInput">E-mail</label>
           </div>
 
-          <div class="col-12">
-            <textarea class="form-control" rows="3" placeholder="Detalles de tu proyecto" id="detalles" name="detalles" required autocomplete="off"></textarea pattern="[a-zA-Z\s]{1-500}">
-          </div>
-
-          <div class="form-check lefta col-12">
-            <input style="width:15px;" class="form-check-input" type="checkbox" value="1" id="flexCheckDefault acepto" name="acepto" required autocomplete="off">
-            <label class="form-check-label" for="flexCheckDefault">
-            Acepto los términos, condiciones y politicas.
-            </label>
+          <div class="form-floating mb-3 col-12">
+            <textarea class="form-control" placeholder="Detalles de tu proyecto" id="floatingInput" name="detalles" required autocomplete="off" style="min-height:150px;"></textarea pattern="[a-zA-Z\s]{1-200}">
+            <label for="floatingInput">Detalles</label>
           </div>
 
           <div class="col-md-3 col-5">
-            <button type="submit" class="btncontacto btn btn-primary">Enviar</button>
+            <button type="submit" class="btncontacto btn btn-outline-light">Enviar</button>
           </div>
 
           </div>
@@ -337,7 +333,7 @@ require 'dbcon.php';
                 }
                 else
                 {
-                    echo "No hay noticias disponibles por el momento";
+                    echo '<div class="col-12 text-center">No hay noticias disponibles por el momento</div>';
                 }
             ?>
         </div>
@@ -349,7 +345,6 @@ require 'dbcon.php';
         </a>
     </div>
     </div>
-
 
     <div id="bolsadetrabajo" class="row reclutamiento justify-content-center align-items-center">
       <div class="col-11 col-md-7 text-center">

@@ -54,6 +54,7 @@ include_once 'database.php';
 require 'dbcon.php';
 
   include 'menu.php'; ?>
+  <?php include 'whatsapp.php'; ?>
 
   <style>
     .noticia {

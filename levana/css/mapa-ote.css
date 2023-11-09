@@ -1,0 +1,274 @@
+#svgcontainer{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	overflow: auto;
+	max-width: 860px;
+	width: 100%;
+	}
+
+	#svgmap{
+		width: 100%;
+	}
+
+	th, td{ text-align: center;}
+	thead{ text-transform: uppercase;}
+    
+	/*svg g path, svg g rect, svg polygon, svg polyline, svg path{*/
+	svg [id*='lote_'], svg #entrada,
+	svg .jardin{
+		cursor: pointer;
+        fill-opacity: 0.65;
+        transition: all .25s ease-in;
+      }
+    /*svg g path:hover, svg g rect:hover, svg polygon:hover, svg polyline:hover, svg path:hover,
+	svg g path:focus, svg g rect:focus, svg polygon:focus, svg polyline:focus, svg path:focus{*/
+	svg [id*='lote_']:hover, svg [id*='lote_']:focus,
+	svg #entrada:hover, svg #entrada:focus,
+	svg .jardin:hover, svg .jardin:focus{
+        fill-opacity: 1;
+      }
+
+	[id*='lote2a'], [id*='lotecc']{
+		fill-opacity: 0.25;
+		stroke: silver !important;
+	}
+
+	.cls-2, .st5 {background-color: #ef7f96;}
+	.cls-6, .st2 {background-color: #98bfd5;}
+	.cls-3, .st3 {background-color: #d2c98f;}
+	/*
+    .st3{fill:#D9CE90;stroke:#010202;stroke-width:0.5;stroke-miterlimit:10;}
+    .st4{fill:#A6C6DC;stroke:#010202;stroke-width:0.5;stroke-miterlimit:10;}
+    .st5{fill:#EF7D96;stroke:#010202;stroke-width:0.5;stroke-miterlimit:10;}
+    .st10{fill:#E5DCAE;stroke:#010202;stroke-width:0.5;stroke-miterlimit:10;}
+    */
+
+	.modal-title img{
+	width: 50%
+	}
+
+	#minimap{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-image: url(../assets/img/levana_oriente.jpg);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	box-shadow: 1px 1px 6px #333, 0 0 12px rgba(0,0,0,0.25);
+	right: -150px;
+	border-radius: 6px
+	}
+	.wwweb #minimap{
+		background-image: url(../assets/img/levana_oriente_web.jpg);
+	}
+	.modal-body{
+	position: relative;
+	}
+	.modal-fullscreen-sm-down-bye .amenidades-info img{
+		min-width: 480px;
+	}
+	.modal-fullscreen-sm-down-bye .amenidades-info{
+	overflow: auto;
+	}
+	@media (min-width: 992px) {
+		.modal-fullscreen-sm-down-bye{min-width: 720px;}
+		.modal-fullscreen-sm-down-bye .amenidades-info img{
+		min-width: 640px;
+		}
+	}
+
+	#minimap{
+	background-position: -2185px -86px;
+	background-size: 2860px auto;
+	transition: all 1.5s ease-in-out;
+	transition-delay: 0.5s;
+	display: none;
+	transform: translateX(150px);
+	opacity: 0;
+	transition: all 0.75s ease-in-out;
+	transition-delay: 1s;
+	}
+	#minimap.mmap-show{
+	  display: block;
+	  transform: translateX(0px);
+	  opacity: 1;
+	}
+
+    #minimap.mmap_1{ background-position: -375px -1570px; background-size: 2220px auto; }
+	#minimap.mmap_2{ background-position: -375px -1470px; background-size: 2220px auto; }	    
+	#minimap.mmap_3{ background-position: -375px -1370px; background-size: 2220px auto; }
+	#minimap.mmap_4{ background-position: -375px -1270px; background-size: 2210px auto; }
+	#minimap.mmap_5{ background-position: -375px -1188px; background-size: 2210px auto; }
+	#minimap.mmap_6{ background-position: -378px -1108px; background-size: 2210px auto; }
+	#minimap.mmap_7{ background-position: -378px -1038px; background-size: 2210px auto; }
+	#minimap.mmap_8{ background-position: -378px -958px; background-size: 2200px auto; }
+	#minimap.mmap_9{ background-position: -378px -868px; background-size: 2200px auto; }
+	#minimap.mmap_10{ background-position: -375px -790px; background-size: 2180px auto; }
+    #minimap.mmap_11{ background-position: -365px -700px; background-size: 2160px auto; }
+	#minimap.mmap_12{ background-position: -355px -620px; background-size: 2160px auto; }
+	#minimap.mmap_13{ background-position: -345px -535px; background-size: 2160px auto; }
+	#minimap.mmap_14{ background-position: -518px -525px; background-size: 2160px auto; }
+	#minimap.mmap_15{ background-position: -528px -614px; background-size: 2160px auto; }
+	#minimap.mmap_16{ background-position: -538px -674px; background-size: 2160px auto; }
+	#minimap.mmap_17{ background-position: -540px -752px; background-size: 2150px auto; }
+	#minimap.mmap_18{ background-position: -540px -828px; background-size: 2145px auto; }
+	#minimap.mmap_19{ background-position: -540px -908px; background-size: 2145px auto; }
+	#minimap.mmap_20{ background-position: -538px -982px; background-size: 2145px auto; }
+	#minimap.mmap_21{ background-position: -538px -1065px; background-size: 2145px auto; }
+	#minimap.mmap_22{ background-position: -532px -1145px; background-size: 2140px auto; }
+	#minimap.mmap_23{ background-position: -532px -1225px; background-size: 2140px auto; }
+	#minimap.mmap_24{ background-position: -532px -1295px; background-size: 2140px auto; }
+	#minimap.mmap_25{ background-position: -532px -1405px; background-size: 2140px auto; }
+	#minimap.mmap_26{ background-position: -530px -1495px; background-size: 2140px auto; }
+    
+	#minimap.mmap_27{ background-position: -800px -1625px; background-size: 2130px auto; }
+	#minimap.mmap_28{ background-position: -805px -1525px; background-size: 2130px auto; }
+	#minimap.mmap_29{ background-position: -805px -1430px; background-size: 2130px auto; }
+	#minimap.mmap_30{ background-position: -805px -1350px; background-size: 2130px auto; }
+	#minimap.mmap_31{ background-position: -805px -1280px; background-size: 2130px auto; }
+	#minimap.mmap_32{ background-position: -808px -1195px; background-size: 2130px auto; }
+	#minimap.mmap_33{ background-position: -808px -1115px; background-size: 2130px auto; }
+	#minimap.mmap_34{ background-position: -810px -1050px; background-size: 2130px auto; }
+	#minimap.mmap_35{ background-position: -815px -975px; background-size: 2130px auto; }
+	#minimap.mmap_36{ background-position: -815px -900px; background-size: 2130px auto; }
+	#minimap.mmap_37{ background-position: -815px -820px; background-size: 2130px auto; }
+	#minimap.mmap_38{ background-position: -810px -740px; background-size: 2130px auto; }
+	#minimap.mmap_39{ background-position: -805px -670px; background-size: 2130px auto; }
+	#minimap.mmap_40{ background-position: -795px -590px; background-size: 2120px auto; }
+    #minimap.mmap_41{ background-position: -785px -510px; background-size: 2120px auto; }
+	#minimap.mmap_42{ background-position: -775px -435px; background-size: 2120px auto; }
+	#minimap.mmap_43{ background-position: -770px -350px; background-size: 2120px auto; }
+
+	#minimap.mmap_44{ background-position: -940px -350px; background-size: 2125px auto; }
+	#minimap.mmap_45{ background-position: -950px -420px; background-size: 2125px auto; }
+	#minimap.mmap_46{ background-position: -958px -500px; background-size: 2125px auto; }
+	#minimap.mmap_47{ background-position: -962px -575px; background-size: 2125px auto; }
+	#minimap.mmap_48{ background-position: -970px -645px; background-size: 2125px auto; }
+	#minimap.mmap_49{ background-position: -978px -710px; background-size: 2120px auto; }
+	#minimap.mmap_50{ background-position: -978px -790px; background-size: 2120px auto; }
+	#minimap.mmap_51{ background-position: -978px -870px; background-size: 2120px auto; }
+	#minimap.mmap_52{ background-position: -978px -940px; background-size: 2120px auto; }
+	#minimap.mmap_53{ background-position: -975px -1035px; background-size: 2120px auto; }
+	#minimap.mmap_54{ background-position: -975px -1105px; background-size: 2120px auto; }
+	#minimap.mmap_55{ background-position: -975px -1185px; background-size: 2120px auto; }
+	#minimap.mmap_56{ background-position: -970px -1260px; background-size: 2120px auto; }
+	#minimap.mmap_57{ background-position: -970px -1330px; background-size: 2120px auto; }
+	#minimap.mmap_58{ background-position: -970px -1418px; background-size: 2120px auto; }
+	#minimap.mmap_59{ background-position: -965px -1510px; background-size: 2120px auto; }
+	#minimap.mmap_60{ background-position: -965px -1600px; background-size: 2120px auto; }
+
+	#minimap.mmap_61{ background-position: -1235px -520px; background-size: 2145px auto; }
+	#minimap.mmap_62{ background-position: -1235px -450px; background-size: 2145px auto; }
+	#minimap.mmap_63{ background-position: -1225px -350px; background-size: 2145px auto; }
+	#minimap.mmap_64{ background-position: -1210px -270px; background-size: 2145px auto; }
+	#minimap.mmap_65{ background-position: -1200px -140px; background-size: 2150px auto; }
+	#minimap.mmap_66{ background-position: -1330px -140px; background-size: 2165px auto; }
+	#minimap.mmap_67{ background-position: -1380px -250px; background-size: 2165px auto; }
+	#minimap.mmap_68{ background-position: -1400px -350px; background-size: 2165px auto; }
+	#minimap.mmap_69{ background-position: -1410px -430px; background-size: 2165px auto; }
+	#minimap.mmap_70{ background-position: -1410px -510px; background-size: 2150px auto; }
+	#minimap.mmap_71{ background-position: -1540px -610px; background-size: 2090px auto; }
+	#minimap.mmap_72{ background-position: -1430px -610px; background-size: 2100px auto; }
+	#minimap.mmap_73{ background-position: -1360px -630px; background-size: 2120px auto; }
+	#minimap.mmap_74{ background-position: -1280px -630px; background-size: 2120px auto; }
+	#minimap.mmap_75{ background-position: -1205px -640px; background-size: 2120px auto; }
+
+	#minimap.mmap_76{ background-position: -1205px -900px; background-size: 2100px auto; }
+	#minimap.mmap_77{ background-position: -1285px -895px; background-size: 2100px auto; }
+	#minimap.mmap_78{ background-position: -1370px -895px; background-size: 2105px auto; }
+	#minimap.mmap_79{ background-position: -1441px -890px; background-size: 2105px auto; }
+	#minimap.mmap_80{ background-position: -1515px -885px; background-size: 2105px auto; }
+	#minimap.mmap_81{ background-position: -1600px -880px; background-size: 2110px auto; }
+	#minimap.mmap_82{ background-position: -1675px -874px; background-size: 2115px auto; }
+	#minimap.mmap_83{ background-position: -1685px -1045px; background-size: 2115px auto; }
+	#minimap.mmap_84{ background-position: -1615px -1050px; background-size: 2115px auto; }
+    #minimap.mmap_85{ background-position: -1545px -1055px; background-size: 2115px auto; }
+    #minimap.mmap_86{ background-position: -1465px -1060px; background-size: 2115px auto; }
+    #minimap.mmap_87{ background-position: -1392px -1065px; background-size: 2115px auto; }
+	#minimap.mmap_88{ background-position: -1310px -1075px; background-size: 2115px auto; }
+	#minimap.mmap_89{ background-position: -1240px -1080px; background-size: 2115px auto; }
+
+	#minimap.mmap_90{ background-position: -1220px -1595px; background-size: 2070px auto; }
+	#minimap.mmap_91{ background-position: -1214px -1500px; background-size: 2070px auto; }
+	#minimap.mmap_92{ background-position: -1216px -1440px; background-size: 2070px auto; }
+	#minimap.mmap_93{ background-position: -1216px -1355px; background-size: 2070px auto; }
+	#minimap.mmap_94{ background-position: -1230px -1280px; background-size: 2100px auto; }
+	#minimap.mmap_95{ background-position: -1340px -1315px; background-size: 2070px auto; }
+	#minimap.mmap_96{ background-position: -1400px -1310px; background-size: 2070px auto; }
+	#minimap.mmap_97{ background-position: -1480px -1300px; background-size: 2070px auto; }
+	#minimap.mmap_98{ background-position: -1555px -1294px; background-size: 2070px auto; }
+	#minimap.mmap_99{ background-position: -1625px -1294px; background-size: 2070px auto; }
+	#minimap.mmap_100{ background-position: -1705px -1290px; background-size: 2070px auto; }
+	#minimap.mmap_101{ background-position: -1000px -910px; background-size: 1350px auto; }
+	#minimap.mmap_102{ background-position: -1395px -1470px; background-size: 2050px auto; }
+    #minimap.mmap_103{ background-position: -1125px -1260px; background-size: 1750px auto; }
+
+    #minimap.mmap_104{ background-position: -1100px -1280px; background-size: 1550px auto; }
+	#minimap.mmap_105{ background-position: -1070px -1325px; background-size: 1580px auto; }
+	#minimap.mmap_106{ background-position: -1070px -1440px; background-size: 1680px auto; }
+	#minimap.mmap_107{ background-position: -1015px -1440px; background-size: 1680px auto; }
+	#minimap.mmap_108{ background-position: -950px -1440px; background-size: 1680px auto; }
+	#minimap.mmap_109{ background-position: -900px -1455px; background-size: 1690px auto; }
+	#minimap.mmap_110{ background-position: -840px -1460px; background-size: 1690px auto; }
+	#minimap.mmap_111{ background-position: -765px -1465px; background-size: 1690px auto; }
+	#minimap.mmap_112{ background-position: -715px -1485px; background-size: 1700px auto; }
+	#minimap.mmap_113{ background-position: -660px -1485px; background-size: 1700px auto; }
+	#minimap.mmap_114{ background-position: -590px -1500px; background-size: 1710px auto; }
+	#minimap.mmap_115{ background-position: -525px -1500px; background-size: 1710px auto; }
+	#minimap.mmap_116{ background-position: -460px -1500px; background-size: 1720px auto; }
+	#minimap.mmap_117{ background-position: -400px -1485px; background-size: 1720px auto; }
+        
+    #minimap.mmap_118{ background-position: -345px -1475px; background-size: 1730px auto; }
+    #minimap.mmap_119{ background-position: -290px -1460px; background-size: 1730px auto; }
+    #minimap.mmap_120{ background-position: -220px -1470px; background-size: 1750px auto; }
+    #minimap.mmap_121{ background-position: -175px -1450px; background-size: 1750px auto; }
+    #minimap.mmap_122{ background-position: -100px -1380px; background-size: 1700px auto; }
+
+	#controls{
+		position: absolute;
+		bottom: 10px;
+		left: 10px;
+	}
+	#controls .btn{
+		width: 34px;
+		height: 32px;
+		background-color: #fff;
+		font-size: 1.5em;
+		line-height: 0.5;
+		text-align: center;
+	}
+
+	@media (max-width: 575px) {
+
+		#svgcontainer{overflow: visible;}
+		#svgmap{
+			border: none;
+		}
+		#minimap{
+			position: relative;
+			background: #fff url(assets/img/levana_oriente.jpg) center no-repeat;
+			box-shadow: 1px 1px 6px #ededed;
+			right: 0;
+			border-radius: 8px;
+			margin: -35px 0 10px 0;
+			float: right;
+		}
+		/*.modal-content .btn-close{ display: none}*/
+		svg{max-height: 240px;}
+
+		#controls{
+			bottom: 0px;
+			z-index: 1;
+			width: 95%;
+		}
+		#controls .btn{
+			margin: 0 1px;
+			padding: 0.1em;
+			color: #1f1f1f;
+			width: initial;
+			height: initial;
+			border: 1px solid #333;
+			border-radius: 5px;
+		}
+		}	

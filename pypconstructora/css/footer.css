@@ -1,0 +1,46 @@
+.footer{
+    width: 100vw;
+    background-color: #f5f6f7;
+    color: #000000;
+    padding: 50px 0px;
+}
+
+.footer a,li{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000000;
+}
+
+.socmargin{
+    margin-bottom: 50px;
+}
+
+.iconosociales{
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.iconosociales i{
+    font-size: 1rem;
+    padding: 0px 10px;
+    color: #727272;
+}
+
+.derechos{
+    background-color: #000000;
+}
+
+.derechosfont{
+    font-size: 10px;
+    color: #ffffff;
+    padding: 20px 0px;
+}
+
+
+@media screen and (max-width: 1000px){
+
+    .nl p{
+        margin-left: 50px;
+    }
+}

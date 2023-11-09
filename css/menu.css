@@ -2,14 +2,18 @@
     height: 85px;
     z-index: 999999 !important;
     transition: 0.4s ease-out;
+    border-bottom: 1px solid #ffffff2e;
+    background-color: #18181871;
   }
   
   .navbar.scrolled {
-    height: 70px;
+    height: 80px;
+    backdrop-filter: blur(15px);
+    background-color: #00000071;
   }
 
   .navbar-brand img{
-    width: 100px;
+    width: 150px;
   }
 
   .loginbtn{

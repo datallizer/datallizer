@@ -18,134 +18,98 @@
 
 <body>
 
-<!-- Messenger Plugin de chat Code -->
-<div id="fb-root"></div>
+  <!-- Messenger Plugin de chat Code -->
+  <div id="fb-root"></div>
 
-<!-- Your Plugin de chat code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
+  <!-- Your Plugin de chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
 
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "108217338784784");
-  chatbox.setAttribute("attribution", "biz_inbox");
-</script>
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "108217338784784");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
 
-<!-- Your SDK code -->
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v15.0'
-    });
-  };
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml: true,
+        version: 'v15.0'
+      });
+    };
 
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
   <?php include 'menu.php'; ?>
-  <div class="navline"></div>
+  <?php include 'whatsapp.php'; ?>
 
   <div class="container-fluid avisodeprivacidadbg">
-  <div class="row justify-content-evenly align-items-center avisorow">
-    <div class="col-11 text-center"><h2>AVISO DE PRIVACIDAD</h2></div>
-    
-    <div class="accordion" id="accordionExample">
-
     <div class="row justify-content-evenly align-items-center avisorow">
+      <div class="col-11 text-center mt-5">
+        <h2>AVISO DE PRIVACIDAD</h2>
+      </div>
+      <div class="col-11 col-md-8 mt-4">
+        <pre>
+En Datallizer, reconocemos la importancia de la privacidad y la seguridad de tus datos personales. Este aviso de privacidad tiene el propósito de informarte sobre cómo recopilamos, utilizamos y protegemos la información que obtengamos de ti y de tus clientes, así como de los clientes de tus clientes, cuando utilices nuestros servicios y productos.
 
-    <div class="col-11 col-md-5">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-        Uso general
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Le informamos que sus datos personales serán tratados <strong>exclusivamente</strong> para mantener comunicación con el usuario que proporcionó la información y la empresa.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      Datos personales
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-      <p>Los datos personales que recabamos de usted, los utilizaremos para las siguientes finalidades: 
-        <br>  a)	Formulario para preguntar y recibir información de nuestros servicios 
-        <br>  b)	Reclutamiento de personal para trabajar en la empresa<p>
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Usuario
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Adicionalmente, utilizaremos sus datos para enviarle información de nuestros servicios, en caso de que usted no desee esta información, favor de notificarnos al correo: <strong>informacion@datallizer.com</strong>
-      </div>
-    </div>
-  </div>
-    </div>
+<b>Datos que Recopilamos</b>
 
+Datallizer almacena información que puede incluir, pero no se limita a:
 
+- Nombres
+- Apellidos
+- Teléfono fijo
+- Teléfono móvil
+- Correo electrónico
+- Lugar de origen
+- CURP (Clave Única de Registro de Población)
+- Cookies
+- Contraseñas
+- Otros datos relacionados con los servicios y productos que proporcionamos.
 
-    <div class="col-11 col-md-5">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFour">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        Cliente
-      </button>
-    </h2>
-    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+<b>Uso de tus Datos</b>
+
+Tus datos y la información de tus clientes y los clientes de tus clientes se recopilan para los siguientes propósitos:
+
+1. Proporcionar y mantener nuestros servicios y productos.
+2. Verificar tu identidad y la de tus clientes para la prestación de servicios.
+3. Comunicarnos contigo y notificarte sobre actualizaciones y cambios en nuestros servicios.
+4. Mejorar y personalizar tu experiencia con nuestros servicios y productos.
+5. Cumplir con obligaciones legales y regulatorias.
+
+<b>Almacenamiento y Seguridad de Datos</b>
+
+Datallizer utiliza servicios de terceros para el alojamiento de nuestros servidores principales, pero no compartimos información y bases de datos con terceros para ningún fin, excepto el uso legítimo de los clientes de Datallizer, quienes obtuvieron la información.
+
+Tus datos y la información de tus clientes se almacenan de forma segura y se aplican medidas técnicas y organizativas para protegerlos contra el acceso no autorizado y el uso indebido.
+
+<b>Contacto</b>
+
+Si tienes alguna pregunta o inquietud relacionada con tus datos personales o la privacidad, no dudes en contactarnos:
+
+Ubicación: Aguascalientes
+Correo de contacto: contacto@datallizer.com
+
+<b>Cambios en el Aviso de Privacidad</b>
+
+Datallizer se reserva el derecho de actualizar y modificar este aviso de privacidad en cualquier momento. Te recomendamos revisar este aviso de privacidad periódicamente para estar al tanto de cualquier cambio.
+
+Fecha de última actualización: 24/10/2023
+</pre>
       </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFive">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-      Bolsa de trabajo
-      </button>
-    </h2>
-    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingSix">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-        Cookies y otras tecnologías
-      </button>
-    </h2>
-    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
-    </div>
 
-  </div>
-  </div>
 
   <?php include 'footer.php'; ?>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -54,9 +54,9 @@ require 'dbcon.php';
 </script>
 
   <?php include 'menu.php'; ?>
-<div class="bmenu" style="background-color: #000000;height:90px;"></div>
+  <?php include 'whatsapp.php'; ?>
   <div class="container-fluid" style="background-color: #ffffff !important;">
-    <div class="row justify-content-center" style="margin-bottom:70px;">
+    <div class="row justify-content-center" style="margin:80px 0px;">
         <div class="col-12 text-center mt-5 mb-5">
             <h2>NOTICIAS</h2>
         </div>
