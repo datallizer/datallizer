@@ -15,18 +15,18 @@
       <div class="offcanvas-body">
         <div class="navbar-nav mx-lg-auto">
           <a class="nav-item nav-link" href="index.php">Inicio</a>
-          <a class="nav-item nav-link" href="index.php#nosotros">Nosotros</a>
+          <a class="nav-item nav-link" href="nosotros.php">Nosotros</a>
           <a class="nav-item nav-link" href="index.php#servicios">Servicios</a>
           <a class="nav-item nav-link" href="index.php#proyectos">Proyectos</a>
-          <a class="nav-item nav-link" href="index.php#contacto">Contácto</a>
+          <a class="nav-item nav-link" href="index.php#contacto">Contacto</a>
           <a class="nav-item nav-link" href="noticias.php">Noticias</a>
-          <a class="nav-item nav-link" href="index.php#bolsadetrabajo">Bolsa de trabajo</a>
+          <a class="nav-item nav-link" href="bolsadetrabajo.php">Bolsa de trabajo</a>
         </div>
 
         <!-- Action -->
         <div class="d-flex align-items-lg-center mt-3 mt-lg-0 loginbtn btnoffc">
           <!-- Button trigger modal -->
-          <a href="login.php" class="btnoffc btn btn-outline-light">
+          <a href="login.php" class="btnoffc btn btn-light">
             Iniciar sesión
           </a>
         </div>

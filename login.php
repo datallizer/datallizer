@@ -41,21 +41,26 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empresa de desarrollo de software y automatización, nos especializamos en el software hecho a medida, lo que significa que trabajamos estrechamente con nuestros clientes para crear soluciones específicas para sus necesidades únicas.">
+    <meta name="keywords" content="software, empresa, programacion, mipymes, automatizacion, innovacion, ERP, CMS, marketing, publicidad, digital">
+    <meta name="author" content="Datallizer">
+    <meta property="og:title" content="Inicio | Datallizer">
+    <meta property="og:description" content="Empresa de desarrollo de software y automatización, nos especializamos en el software hecho a medida, lo que significa que trabajamos estrechamente con nuestros clientes para crear soluciones específicas para sus necesidades únicas.">
+    <meta property="og:image" content="images/ogportada.jpg">
+    <meta property="og:url" content="https://datallizer.com/login">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/ico.ico">
     <link rel="stylesheet" href="css/styles.css">
-    <!-- <meta name="description" content="UCAP es una Institución predilecta especializada en la formación académica media superior y superior, la cual tiene el fin de fomentar la riqueza formativa y educativa dentro de la misma, a través de principios y valores que se desarrollan en dos núcleos importantes: Familiar y Académico. De esta manera, estructurando una sobresaliente calidad humana y comunitaria.">
-    <meta name="keywords" content="bachillerato, universidad, educacion superior, educacion media, preparatoria, aguascalientes, prepa">
-    <meta name="author" content="UCAP Aguascalientes">
-    <meta property="og:title" content="Login | UCAP Aguascalientes">
-    <meta property="og:description" content="UCAP es una Institución predilecta especializada en la formación académica media superior y superior, la cual tiene el fin de fomentar la riqueza formativa y educativa dentro de la misma, a través de principios y valores que se desarrollan en dos núcleos importantes: Familiar y Académico. De esta manera, estructurando una sobresaliente calidad humana y comunitaria.">
-    <meta property="og:image" content="images/ogportada.jpg">
-    <meta property="og:url" content="https://grupoeducativoucap.mx"> -->
     <title>Login | Datallizer</title>
 </head>
 
 <body>
+    <!-- Timeline Plugin -->
+    <div id="fb-root"></div>
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0" nonce="qltXOFJo"></script>
+
     <?php include 'menu.php'; ?>
     <div class="container-fluid">
         <div class="row justify-content-center align-items-center text-center" style="min-height: 100vh;background-image:url('https://cdn.pixabay.com/photo/2016/03/25/02/13/abstract-1278077_1280.jpg');background-attachment:fixed;background-size:cover;">

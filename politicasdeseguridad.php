@@ -5,6 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Empresa de desarrollo de software y automatización, nos especializamos en el software hecho a medida, lo que significa que trabajamos estrechamente con nuestros clientes para crear soluciones específicas para sus necesidades únicas.">
+  <meta name="keywords" content="software, empresa, programacion, mipymes, automatizacion, innovacion, ERP, CMS, marketing, publicidad, digital">
+  <meta name="author" content="Datallizer">
+  <meta property="og:title" content="Inicio | Datallizer">
+  <meta property="og:description" content="Empresa de desarrollo de software y automatización, nos especializamos en el software hecho a medida, lo que significa que trabajamos estrechamente con nuestros clientes para crear soluciones específicas para sus necesidades únicas.">
+  <meta property="og:image" content="images/ogportada.jpg">
+  <meta property="og:url" content="https://datallizer.com/politicasdeseguridad">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -17,38 +24,10 @@
 </head>
 
 <body>
-
-  <!-- Messenger Plugin de chat Code -->
+  <!-- Timeline Plugin -->
   <div id="fb-root"></div>
 
-  <!-- Your Plugin de chat code -->
-  <div id="fb-customer-chat" class="fb-customerchat">
-  </div>
-
-  <script>
-    var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute("page_id", "108217338784784");
-    chatbox.setAttribute("attribution", "biz_inbox");
-  </script>
-
-  <!-- Your SDK code -->
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        xfbml: true,
-        version: 'v15.0'
-      });
-    };
-
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0" nonce="qltXOFJo"></script>
 
   <?php include 'menu.php'; ?>
   <?php include 'whatsapp.php'; ?>

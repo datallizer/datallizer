@@ -12,14 +12,25 @@ body {
 }
 
 h2 {
+    font-size: 47px;
     text-transform: uppercase;
     font-weight: 800;
 }
 pre{
-  white-space: pre-wrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: pre-wrap;
 }
 img {
     width: 100%;
+}
+label{
+    margin-left: 10px !important;
+    color: #000000;
 }
 
 .colcenter {
@@ -32,8 +43,10 @@ img {
     padding: 0;
 }
 
+
+
 .blue {
-    color: #74a1db;
+    color: #2a6cc2;
 }
 
 .glass {
@@ -41,6 +54,8 @@ img {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
 }
+
+
 
 .hero-container {
     position: relative;
@@ -119,7 +134,7 @@ img {
 /* Slick Slider */
 
 .slmargin {
-    margin: 0 50px;
+    margin: 0 15px;
 }
 
 .slick-track {
@@ -128,7 +143,8 @@ img {
 }
 
 .customer-logos {
-    padding: 0 40px !important;
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
 }
 
 .slmargin img {
@@ -145,15 +161,11 @@ img {
     padding: 50px 0 !important;
 }
 
-.servicesh2 {
-    margin: 30px 0 50px !important;
-}
-
 .servicecard {
     margin: 10px !important;
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.11);
-    border-radius: 16px;
+    border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.4px);
     -webkit-backdrop-filter: blur(5.4px);
@@ -185,13 +197,9 @@ img {
     margin: 50px 0 !important;
 }
 
-.formacontacto label {
-    color: #000000;
-    margin-left: 12px;
-}
-
 .newsindex {
     min-height: 100vh;
+    background-color: #ffffff;
 }
 
 .reclutamiento {
@@ -231,26 +239,18 @@ img {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    height: 100vh;
+    min-height: 100vh;
+    padding:150px 0px ;
 }
 
 .formreclutamiento {
     color: #ffffff;
 }
 
-.formreclutamiento input,
-.formreclutamiento select,
-.formreclutamiento button {
-    margin-top: 10px;
-}
-
 .lefta {
     text-align: left;
 }
 
-.lefta label {
-    margin: 7px 0 0 5px !important;
-}
 
 .navline {
     width: 100vw;
@@ -308,6 +308,7 @@ img {
 
 .bolsarow {
     background-color: #ffffff;
+    padding: 60px 0px !important;
 }
 
 .bolsacard {
@@ -321,10 +322,18 @@ img {
 
 .bolsacard h3 {
     font-size: 23px;
-    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bolsaconttxt{
+    min-height: 300px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1000px) {
+    h2 {
+        font-size: 40px;
+    }
 
     .overx {
         overflow-x: hidden;
@@ -353,7 +362,7 @@ img {
     }
 
     .mgtop {
-        margin-top: 20px !important;
+        margin-top: 0px !important;
     }
 
     .nosotrosh2 {

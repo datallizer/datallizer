@@ -8,6 +8,13 @@ require 'dbcon.php';
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Empresa de desarrollo de software y automatización, nos especializamos en el software hecho a medida, lo que significa que trabajamos estrechamente con nuestros clientes para crear soluciones específicas para sus necesidades únicas.">
+  <meta name="keywords" content="software, empresa, programacion, mipymes, automatizacion, innovacion, ERP, CMS, marketing, publicidad, digital">
+  <meta name="author" content="Datallizer">
+  <meta property="og:title" content="Inicio | Datallizer">
+  <meta property="og:description" content="Empresa de desarrollo de software y automatización, nos especializamos en el software hecho a medida, lo que significa que trabajamos estrechamente con nuestros clientes para crear soluciones específicas para sus necesidades únicas.">
+  <meta property="og:image" content="images/ogportada.jpg">
+  <meta property="og:url" content="https://datallizer.com/noticias">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -21,37 +28,10 @@ require 'dbcon.php';
 </head>
 
 <body>
+  <!-- Timeline Plugin -->
+  <div id="fb-root"></div>
 
-<!-- Messenger Plugin de chat Code -->
-<div id="fb-root"></div>
-
-<!-- Your Plugin de chat code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
-
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "108217338784784");
-  chatbox.setAttribute("attribution", "biz_inbox");
-</script>
-
-<!-- Your SDK code -->
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v15.0'
-    });
-  };
-
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0" nonce="qltXOFJo"></script>
 
   <?php include 'menu.php'; ?>
   <?php include 'whatsapp.php'; ?>
@@ -91,16 +71,23 @@ require 'dbcon.php';
         if (mysqli_num_rows($query_run) > 0) {
             foreach ($query_run as $registro) {
                 ?>
-                <div class="col-12 col-md-8 mb-5">
+                <div class="col-10 col-md-8 mb-5 bg-light g-0">
                     <a href="vernoticia.php?id=<?= $registro['id']; ?>" style="text-decoration: none;color:#000000;">
                         <div class="row justify-content-center align-items-center">
-                            <div class="col-10 col-md-4">
-                                <img style="width: 100%;border-radius:10px 0px 0px 10px" src="data:image/jpeg;base64,<?php echo base64_encode($registro['imagen']); ?>" alt="Imagen nota">
+                            <div class="col-12 col-md-4">
+                                <img style="width: 100%;" src="data:image/jpeg;base64,<?php echo base64_encode($registro['imagen']); ?>" alt="Imagen nota">
                             </div>
-                            <div class="col-10 col-md-8">
-                                <h3 class="margnews" style="text-transform:uppercase;"><?= $registro['titulo']; ?></h3>
-                                <pre><?= $registro['cuerpo']; ?></pre>
-                                <button class="mt-3 btn btn-sm btn-primary float-end">Ver más</button>
+                            <div class="col-10 col-md-8" style="padding-right:50px;">
+                                <h3 style="text-transform:uppercase;margin-top:20px;">
+                                <?php
+                        $titulo = $registro['titulo'];
+                        echo substr($titulo, 0, 70);
+                        if (strlen($titulo) > 70) {
+                          echo '...';
+                        }
+                        ?>
+                                </h3>
+                                <pre style="margin-bottom: 20px;"><?= $registro['cuerpo']; ?></pre>
                             </div>
                         </div>
                     </a>
@@ -114,9 +101,9 @@ require 'dbcon.php';
     </div>
 
     <!-- Paginación -->
-    <div class="row justify-content-center">
-        <div class="col-3 text-center">
-            <ul class="pagination">
+    <div class="row justify-content-center mb-5">
+        <div class="col-12 text-center">
+            <ul class="pagination" style="justify-content: center;">
                 <?php
                 for ($page = 1; $page <= $total_pages; $page++) {
                     echo '<li class="page-item';

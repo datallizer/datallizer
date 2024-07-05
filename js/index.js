@@ -5,8 +5,8 @@
     slidesToScroll: 4,
     autoplay: true,
     speed: 300,
-    arrows: false,
-    dots: false,
+    arrows: true,
+    dots: true,
     pauseOnHover: false,
     responsive: [{
       breakpoint: 768,
@@ -18,7 +18,7 @@
       breakpoint: 520,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 2
       }
     }]
     });
